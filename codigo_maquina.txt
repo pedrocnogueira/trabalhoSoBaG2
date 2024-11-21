@@ -1,0 +1,10 @@
+
+* Prólogo *
+pushq %rbp -> 55
+movq %rsp, %rbp -> 48 89 e5
+
+* Finalização *
+leave -> c9
+ret -> c3
+
+call *%rax -> ff d0
