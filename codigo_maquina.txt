@@ -8,3 +8,4 @@ leave -> c9
 ret -> c3
 
 call *%rax -> ff d0
+movq %rdi, %rax -> 48 89 f8
